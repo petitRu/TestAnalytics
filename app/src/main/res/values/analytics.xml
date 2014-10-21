@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="TypographyDashes">
+
+    <!-- The apps Analytics Tracking Id -->
+        <string name="ga_trackingId" tools:ignore="TypographyDashes">UA-55860815-1</string>
+    <!-- Enable automatic Activity measurement -->
+        <bool name="ga_autoActivityTracking">true</bool>
+    <!-- catch and report uncaught exceptions from the app -->
+        <bool name="ga_reportUncaughtExceptions">true</bool>
+    <!-- Enable debug -->
+    <!--<bool name="ga_debug">true</bool>-->
+
+    <!-- The screen names that will appear in your reporting -->
+    <string name="com.testgoogleanalytics.MainActivity">MAIN</string>
+    <string name="com.testgoogleanalytics.About">About</string>
+
+    <!--
+    The inverval of time after all the collected data
+    should be sent to the server, in seconds.
+    -->
+    <integer name="ga_dispatchPeriod">30</integer>
+</resources>
